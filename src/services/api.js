@@ -1,6 +1,6 @@
 import axios from "axios"
 import { getHeaders } from "../auth/authService"
-const B = "https://venubookingbackend.onrender.com"
+const B = "https://venue-booking-backend-a79i.onrender.com"
 export const login = (d) => axios.post(`${B}/login`, d)
 export const signup = (d) => axios.post(`${B}/signup`, d)
 export const changePassword = (d) => axios.post(`${B}/changePassword`, d)

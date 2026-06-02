@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
 import { toast } from "react-toastify"
 import { getProfile, updateProfile, changePassword } from "../services/api"
-const BACKEND = "https://venubookingbackend.onrender.com"
+const BACKEND = "https://venue-booking-backend-a79i.onrender.com"
 export default function Profile({ setUserData }) {
   const [profile, setProfile] = useState(null); const [loading, setLoading] = useState(true); const [tab, setTab] = useState("info"); const [saving, setSaving] = useState(false); const [changing, setChanging] = useState(false); const [imgFile, setImgFile] = useState(null); const [preview, setPreview] = useState(null); const [form, setForm] = useState({ name: "", phone: "", address: "" }); const [passForm, setPassForm] = useState({ newPassword: "", confirm: "" })
   const inp = { width: "100%", padding: "11px 14px", border: "1px solid #e8e0dc", borderRadius: 6, fontFamily: "'DM Sans',sans-serif", fontSize: 14, outline: "none" }

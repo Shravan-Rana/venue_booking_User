@@ -1,5 +1,5 @@
 import axios from "axios"
-const BASE = "https://venubookingbackend.onrender.com"
+const BASE = "https://venue-booking-backend-a79i.onrender.com"
 export const getToken = () => localStorage.getItem("re_user_token")
 export const setToken = (t) => localStorage.setItem("re_user_token", t)
 export const removeToken = () => localStorage.removeItem("re_user_token")

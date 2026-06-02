@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react"
 import { Link, useSearchParams } from "react-router-dom"
 import { getVenues, getCities, getOccasions, getVenueTypes } from "../services/api"
 
-const BACKEND = "https://venubookingbackend.onrender.com"
+const BACKEND = "https://venue-booking-backend-a79i.onrender.com"
 
 export default function Venues() {
   const [venues, setVenues] = useState([])

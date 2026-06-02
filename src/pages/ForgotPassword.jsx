@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import { Link, useNavigate } from "react-router-dom"
 import { toast } from "react-toastify"
 import axios from "axios"
-const B = "https://venubookingbackend.onrender.com"
+const B = "https://venue-booking-backend-a79i.onrender.com"
 export default function ForgotPassword() {
   const [step, setStep] = useState(1); const [email, setEmail] = useState(""); const [otp, setOtp] = useState(""); const [newPass, setNewPass] = useState(""); const [confirm, setConfirm] = useState(""); const [loading, setLoading] = useState(false); const navigate = useNavigate()
   const inp = { width: "100%", padding: "11px 14px", border: "1px solid #e8e0dc", borderRadius: 6, fontFamily: "'DM Sans',sans-serif", fontSize: 14, outline: "none" }

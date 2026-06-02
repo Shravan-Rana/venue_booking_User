@@ -3,7 +3,7 @@ import { useParams, Link, useNavigate } from "react-router-dom"
 import { toast } from "react-toastify"
 import { getVenueDetails, getFeedbacks, bookVenue, genOrderId, verifyPayment } from "../services/api"
 
-const BACKEND = "https://venubookingbackend.onrender.com"
+const BACKEND = "https://venue-booking-backend-a79i.onrender.com"
 const RAZORPAY_KEY = "rzp_test_VQhEfe2NCXbbwI"
 
 export default function VenueDetail({ isAuthenticated }) {

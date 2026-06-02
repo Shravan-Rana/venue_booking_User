@@ -9,7 +9,7 @@ import {
   addFeedback,
 } from "../services/api";
 
-const BACKEND = "https://venubookingbackend.onrender.com";
+const BACKEND = "https://venue-booking-backend-a79i.onrender.com";
 const RAZORPAY_KEY = "rzp_test_VQhEfe2NCXbbwI";
 
 export default function MyBookings() {
